@@ -75,12 +75,20 @@ int master_run(const CONFIG *cfg) {
 
     /* Merge */
     double t2 = MPI_Wtime();
-
-    merge_all(blocks, nb);
+    char final_tri[256];
+    merge_all(blocks, nb, final_tri);
 
     double t_merge = MPI_Wtime() - t2;
     printf("[TIME] MERGE: %.2f s\n", t_merge);
 
+    /* Leer todos los puntos para el SVG (necesitamos la nube completa) */
+    POINT *pts = NULL;
+    int n = 0;
+    las_read_points(cfg->input_file, &pts, &n);
+ 
+    /* Generar SVG con el resultado final */
+    write_svg(cfg->svg_out, pts, n, final_tri);
+    free(pts);
 
     double t_total = MPI_Wtime() - t0;
     printf("[TIME] TOTAL: %.2f s\n", t_total);

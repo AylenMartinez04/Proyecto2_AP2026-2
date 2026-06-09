@@ -16,8 +16,9 @@ int main(int argc, char **argv) {
     MPI_Comm_rank(MPI_COMM_WORLD,&rank);
     // Crear configuracion (archivo de entrada, carpeta de trabajo (.pts y .tri))
     CONFIG cfg;
-    strcpy(cfg.input_file,"data/PNOA_2021_CAT_462-4603_NPC01.las");
+    strcpy(cfg.input_file,"data/prueba_100.las");
     strcpy(cfg.work_dir,"work");
+    strcpy(cfg.svg_out,    argc > 1 ? argv[1] : "resultado.svg");
     // Definir tamaño del bloque
     cfg.block_size = 20000;
     // Dependiendo del rank ejecutara su rol

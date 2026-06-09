@@ -8,7 +8,7 @@ Este proyecto utiliza datos LiDAR del Plan Nacional de Ortofotografía Aérea (P
 Fuente:
 https://centrodedescargas.cnig.es/
 
-Especialmente usamos, el cual se descarga en el enlace adjunto:
+Especialmente usamos:
 https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12071766
 
 Condiciones de uso:

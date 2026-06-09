@@ -47,7 +47,7 @@ int merge_two(const char *f1, const char *f2, const char *out) {
 }
 
 /* Merge binario por niveles */
-int merge_all(BLOCK *blocks, int nb)
+int merge_all(BLOCK *blocks, int nb, char *out_path)
 {
     char files[2000][256];
 
@@ -75,14 +75,12 @@ int merge_all(BLOCK *blocks, int nb)
                 /* Caso impar */
                 strcpy(files[next], files[i]);
             }
-
             next++;
         }
-
         current = next;
         level++;
     }
-
     printf("[MERGE] Final: %s\n", files[0]);
+    if (out_path) strcpy(out_path, files[0]);
     return 0;
 }

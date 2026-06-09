@@ -3,7 +3,6 @@
 #define TAG_TASK 1 // Etiqueta de mensaje cuando master le envía mensaje a un worker
 #define TAG_DONE 2 // Etiqueta de mensaje cuando worker termina tarea
 #define TAG_STOP 3 // Etiqueta de mensaje cuando el master envía señal de detener la ejecución o que ha terminado
-#include <mpi.h>
 /*
  * Definiciones que son compartidas en varios archivos
  */
@@ -15,9 +14,9 @@ typedef struct {
 
 /* Definición de triángulo (para la triangulación) */
 typedef struct {
-    double x0, y0, z0; // Vertice A
-    double x1, y1, z1; // Vertice B
-    double x2, y2, z2; // Vertice C
+    double x0, y0; // Vertice A
+    double x1, y1; // Vertice B
+    double x2, y2; // Vertice C
 } TRIANGLE;
 
 /* Bloque (grid) */
@@ -31,6 +30,7 @@ typedef struct {
 typedef struct {
     char input_file[256]; // Archivo .las
     char work_dir[256]; // Archivo donde se guarda (.pts y .tri)
+    char svg_out[256];
     int block_size; // // Tamaño del bloque
 } CONFIG;
 
@@ -57,7 +57,7 @@ int split_run(const CONFIG *cfg, BLOCK **blocks, int *num_blocks);
 /**
  * Uner los resultados por niveles
  */
-int merge_all(BLOCK *blocks, int nb);
+int  merge_all(BLOCK *blocks, int nb, char *out_path); 
 
 /**
  * Une los resultados de la triangulación
@@ -73,6 +73,8 @@ int merge_run(const CONFIG *cfg, BLOCK *blocks, int nb);
  * - outfile: archuvo de salida
  */
 int delaunay_run(POINT *pts, int n, const char *out_file);
+
+void write_svg(const char *svg_path, POINT *pts, int n, const char *tri_bin);
 
 /**
  * Funcion de cada worker
