@@ -2,8 +2,8 @@ CC_PAR  = mpicc
 CC_SEQ  = gcc
 FLAGS   = -lm
 
-PAR_SRC = paralelo/*.c
-SEQ_SRC = secuencial/*.c
+PAR_SRC = src/paralelo/*.c
+SEQ_SRC = src/secuencial/*.c
 
 PAR_BIN = triangulation_par
 SEQ_BIN = triangulation_seq
