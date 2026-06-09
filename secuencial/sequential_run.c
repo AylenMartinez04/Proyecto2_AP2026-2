@@ -17,7 +17,7 @@
  *
  * Además se mide el tiempo de ejecución total.
  */
-int master_run(const CONFIG *cfg)
+int sequential_run(const CONFIG *cfg)
 {
     // Parte 1: Split
     clock_t t0 = clock(); // Función para medir el tiempo total
