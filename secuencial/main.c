@@ -2,11 +2,11 @@
 #include "structure.h"
 /**
  * Main principal que ejecuta el programa
+ * (Versión secuencial)
  *
- * Se le pasa el numero de procesos
- * Cada proceso ejecuta el main (dependiendo el rank):
- * - rank= 0: es el master
- * - rank /= 0 es worker
+ * Todo ocurre en un solo proceso, realizando el split, luego delaunay para cada bloque y merge final.
+ *
+ * Se mantiene la lógica de división de bloques para una mejor comparación con la versión paralela.
  */
 int main(int argc, char **argv)
 {
