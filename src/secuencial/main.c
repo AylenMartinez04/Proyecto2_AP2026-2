@@ -13,7 +13,7 @@ int main(int argc, char **argv)
 
     // Crear configuracion (archivo de entrada, carpeta de trabajo (.pts y .tri))
     CONFIG cfg;
-    strcpy(cfg.input_file, "data/PNOA_2021_CAT_462-4603_NPC01.las");
+    strcpy(cfg.input_file, "data/PNOA_2016_MAD_379-4476_ORT-CLA-RGB.las");
     strcpy(cfg.work_dir, "work");
     strcpy(cfg.svg_out, argc > 1 ? argv[1] : "resultado.svg");
     // Definir tamaño del bloque
