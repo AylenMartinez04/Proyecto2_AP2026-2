@@ -1,0 +1,15 @@
+============================================
+ Tiempo SECUENCIAL
+ Numero de ejecuciones: 5
+============================================
+  Run 1/5 ... 0.13 s
+  Run 2/5 ... 0.13 s
+  Run 3/5 ... 0.13 s
+  Run 4/5 ... 0.14 s
+  Run 5/5 ... 0.14 s
+
+--------------------------------------------
+ Ejecuciones completadas : 5
+ SVG              : resultado_PNOA_2016_MAD_379-4476_ORT-CLA-RGB_seq.svg
+ Tiempo promedio  : 0.134000 s
+============================================

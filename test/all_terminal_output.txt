@@ -1,0 +1,400 @@
+════════════════════════════════════════════
+ Dataset: PNOA_2016_MAD_379-4476_ORT-CLA-RGB
+════════════════════════════════════════════
+>>> Secuencial
+============================================
+ Tiempo SECUENCIAL
+ Numero de ejecuciones: 5
+============================================
+  Run 1/5 ... 0.13 s
+  Run 2/5 ... 0.13 s
+  Run 3/5 ... 0.13 s
+  Run 4/5 ... 0.14 s
+  Run 5/5 ... 0.14 s
+
+--------------------------------------------
+ Ejecuciones completadas : 5
+ SVG              : resultado_PNOA_2016_MAD_379-4476_ORT-CLA-RGB_seq.svg
+ Tiempo promedio  : 0.134000 s
+============================================
+ Log guardado en  : /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/seq_20260611_234058.txt
+ Raw guardado en  : /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/seq_20260611_234058_raw.txt
+>>> Paralelo NP=4
+============================================
+ Tiempo PARALELO
+ Número de procesos: 4
+ Número de ejecuciones: 5
+============================================
+  Run 1/5 ... 0.18 s
+  Run 2/5 ... 0.17 s
+  Run 3/5 ... 0.14 s
+  Run 4/5 ... 0.14 s
+  Run 5/5 ... 0.14 s
+
+--------------------------------------------
+ Ejecuciones completadas : 5
+ Número de procesos : 4
+ Tiempo promedio  : 0.154000 s
+============================================
+ Log guardado en  : /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/par_NP4_20260611_234059.txt
+ Raw guardado en  : /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/par_NP4_20260611_234059_raw.txt
+>>> Paralelo NP=8
+============================================
+ Tiempo PARALELO
+ Número de procesos: 8
+ Número de ejecuciones: 5
+============================================
+  Run 1/5 ... 0.29 s
+  Run 2/5 ... 0.15 s
+  Run 3/5 ... 0.15 s
+  Run 4/5 ... 0.28 s
+  Run 5/5 ... 0.25 s
+
+--------------------------------------------
+ Ejecuciones completadas : 5
+ Número de procesos : 8
+ Tiempo promedio  : 0.224000 s
+============================================
+ Log guardado en  : /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/par_NP8_20260611_234102.txt
+ Raw guardado en  : /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/par_NP8_20260611_234102_raw.txt
+>>> Paralelo NP=12
+============================================
+ Tiempo PARALELO
+ Número de procesos: 12
+ Número de ejecuciones: 5
+============================================
+  Run 1/5 ... 0.15 s
+  Run 2/5 ... 0.28 s
+  Run 3/5 ... 0.15 s
+  Run 4/5 ... 0.27 s
+  Run 5/5 ... 0.25 s
+
+--------------------------------------------
+ Ejecuciones completadas : 5
+ Número de procesos : 12
+ Tiempo promedio  : 0.220000 s
+============================================
+ Log guardado en  : /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/par_NP12_20260611_234106.txt
+ Raw guardado en  : /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/par_NP12_20260611_234106_raw.txt
+
+════════════════════════════════════════════
+ Dataset: PNOA_2016_MAD_383-4484_ORT-CLA-RGB
+════════════════════════════════════════════
+>>> Secuencial
+============================================
+ Tiempo SECUENCIAL
+ Numero de ejecuciones: 5
+============================================
+  Run 1/5 ... 0.03 s
+  Run 2/5 ... 0.02 s
+  Run 3/5 ... 0.03 s
+  Run 4/5 ... 0.02 s
+  Run 5/5 ... 0.02 s
+
+--------------------------------------------
+ Ejecuciones completadas : 5
+ SVG              : resultado_PNOA_2016_MAD_383-4484_ORT-CLA-RGB_seq.svg
+ Tiempo promedio  : 0.024000 s
+============================================
+ Log guardado en  : /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/seq_20260611_234110.txt
+ Raw guardado en  : /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/seq_20260611_234110_raw.txt
+>>> Paralelo NP=4
+============================================
+ Tiempo PARALELO
+ Número de procesos: 4
+ Número de ejecuciones: 5
+============================================
+  Run 1/5 ... 0.04 s
+  Run 2/5 ... 0.02 s
+  Run 3/5 ... 0.02 s
+  Run 4/5 ... 0.02 s
+  Run 5/5 ... 0.02 s
+
+--------------------------------------------
+ Ejecuciones completadas : 5
+ Número de procesos : 4
+ Tiempo promedio  : 0.024000 s
+============================================
+ Log guardado en  : /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/par_NP4_20260611_234111.txt
+ Raw guardado en  : /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/par_NP4_20260611_234111_raw.txt
+>>> Paralelo NP=8
+============================================
+ Tiempo PARALELO
+ Número de procesos: 8
+ Número de ejecuciones: 5
+============================================
+  Run 1/5 ... 0.03 s
+  Run 2/5 ... 0.02 s
+  Run 3/5 ... 0.04 s
+  Run 4/5 ... 0.04 s
+  Run 5/5 ... 0.04 s
+
+--------------------------------------------
+ Ejecuciones completadas : 5
+ Número de procesos : 8
+ Tiempo promedio  : 0.034000 s
+============================================
+ Log guardado en  : /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/par_NP8_20260611_234113.txt
+ Raw guardado en  : /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/par_NP8_20260611_234113_raw.txt
+>>> Paralelo NP=12
+============================================
+ Tiempo PARALELO
+ Número de procesos: 12
+ Número de ejecuciones: 5
+============================================
+  Run 1/5 ... 0.02 s
+  Run 2/5 ... 0.04 s
+  Run 3/5 ... 0.04 s
+  Run 4/5 ... 0.04 s
+  Run 5/5 ... 0.02 s
+
+--------------------------------------------
+ Ejecuciones completadas : 5
+ Número de procesos : 12
+ Tiempo promedio  : 0.032000 s
+============================================
+ Log guardado en  : /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/par_NP12_20260611_234116.txt
+ Raw guardado en  : /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/par_NP12_20260611_234116_raw.txt
+
+════════════════════════════════════════════
+ Dataset: PNOA_2017_NAV_610-4646_ORT-CLA-IRC
+════════════════════════════════════════════
+>>> Secuencial
+============================================
+ Tiempo SECUENCIAL
+ Numero de ejecuciones: 5
+============================================
+  Run 1/5 ... 0.01 s
+  Run 2/5 ... 0.00 s
+  Run 3/5 ... 0.00 s
+  Run 4/5 ... 0.01 s
+  Run 5/5 ... 0.01 s
+
+--------------------------------------------
+ Ejecuciones completadas : 5
+ SVG              : resultado_PNOA_2017_NAV_610-4646_ORT-CLA-IRC_seq.svg
+ Tiempo promedio  : 0.006000 s
+============================================
+ Log guardado en  : /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/seq_20260611_234119.txt
+ Raw guardado en  : /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/seq_20260611_234119_raw.txt
+>>> Paralelo NP=4
+============================================
+ Tiempo PARALELO
+ Número de procesos: 4
+ Número de ejecuciones: 5
+============================================
+  Run 1/5 ... 0.00 s
+  Run 2/5 ... 0.01 s
+  Run 3/5 ... 0.01 s
+  Run 4/5 ... 0.01 s
+  Run 5/5 ... 0.01 s
+
+--------------------------------------------
+ Ejecuciones completadas : 5
+ Número de procesos : 4
+ Tiempo promedio  : 0.008000 s
+============================================
+ Log guardado en  : /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/par_NP4_20260611_234120.txt
+ Raw guardado en  : /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/par_NP4_20260611_234120_raw.txt
+>>> Paralelo NP=8
+============================================
+ Tiempo PARALELO
+ Número de procesos: 8
+ Número de ejecuciones: 5
+============================================
+  Run 1/5 ... 0.01 s
+  Run 2/5 ... 0.00 s
+  Run 3/5 ... 0.01 s
+  Run 4/5 ... 0.01 s
+  Run 5/5 ... 0.01 s
+
+--------------------------------------------
+ Ejecuciones completadas : 5
+ Número de procesos : 8
+ Tiempo promedio  : 0.008000 s
+============================================
+ Log guardado en  : /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/par_NP8_20260611_234122.txt
+ Raw guardado en  : /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/par_NP8_20260611_234122_raw.txt
+>>> Paralelo NP=12
+============================================
+ Tiempo PARALELO
+ Número de procesos: 12
+ Número de ejecuciones: 5
+============================================
+  Run 1/5 ... 0.01 s
+  Run 2/5 ... 0.00 s
+  Run 3/5 ... 0.01 s
+  Run 4/5 ... 0.01 s
+  Run 5/5 ... 0.00 s
+
+--------------------------------------------
+ Ejecuciones completadas : 5
+ Número de procesos : 12
+ Tiempo promedio  : 0.006000 s
+============================================
+ Log guardado en  : /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/par_NP12_20260611_234125.txt
+ Raw guardado en  : /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/par_NP12_20260611_234125_raw.txt
+
+════════════════════════════════════════════
+ Dataset: PNOA_2019_CYL-NE_598-4648_000-000-IRC
+════════════════════════════════════════════
+>>> Secuencial
+============================================
+ Tiempo SECUENCIAL
+ Numero de ejecuciones: 5
+============================================
+  Run 1/5 ... 0.04 s
+  Run 2/5 ... 0.05 s
+  Run 3/5 ... 0.05 s
+  Run 4/5 ... 0.04 s
+  Run 5/5 ... 0.05 s
+
+--------------------------------------------
+ Ejecuciones completadas : 5
+ SVG              : resultado_PNOA_2019_CYL-NE_598-4648_000-000-IRC_seq.svg
+ Tiempo promedio  : 0.046000 s
+============================================
+ Log guardado en  : /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/seq_20260611_234128.txt
+ Raw guardado en  : /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/seq_20260611_234128_raw.txt
+>>> Paralelo NP=4
+============================================
+ Tiempo PARALELO
+ Número de procesos: 4
+ Número de ejecuciones: 5
+============================================
+  Run 1/5 ... 0.04 s
+  Run 2/5 ... 0.04 s
+  Run 3/5 ... 0.05 s
+  Run 4/5 ... 0.04 s
+  Run 5/5 ... 0.05 s
+
+--------------------------------------------
+ Ejecuciones completadas : 5
+ Número de procesos : 4
+ Tiempo promedio  : 0.044000 s
+============================================
+ Log guardado en  : /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/par_NP4_20260611_234129.txt
+ Raw guardado en  : /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/par_NP4_20260611_234129_raw.txt
+>>> Paralelo NP=8
+============================================
+ Tiempo PARALELO
+ Número de procesos: 8
+ Número de ejecuciones: 5
+============================================
+  Run 1/5 ... 0.09 s
+  Run 2/5 ... 0.10 s
+  Run 3/5 ... 0.10 s
+  Run 4/5 ... 0.05 s
+  Run 5/5 ... 0.05 s
+
+--------------------------------------------
+ Ejecuciones completadas : 5
+ Número de procesos : 8
+ Tiempo promedio  : 0.078000 s
+============================================
+ Log guardado en  : /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/par_NP8_20260611_234131.txt
+ Raw guardado en  : /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/par_NP8_20260611_234131_raw.txt
+>>> Paralelo NP=12
+============================================
+ Tiempo PARALELO
+ Número de procesos: 12
+ Número de ejecuciones: 5
+============================================
+  Run 1/5 ... 0.10 s
+  Run 2/5 ... 0.10 s
+  Run 3/5 ... 0.11 s
+  Run 4/5 ... 0.06 s
+  Run 5/5 ... 0.10 s
+
+--------------------------------------------
+ Ejecuciones completadas : 5
+ Número de procesos : 12
+ Tiempo promedio  : 0.094000 s
+============================================
+ Log guardado en  : /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/par_NP12_20260611_234134.txt
+ Raw guardado en  : /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/par_NP12_20260611_234134_raw.txt
+
+════════════════════════════════════════════
+ Dataset: PNOA_2021_CAT_462-4603_NPC01
+════════════════════════════════════════════
+>>> Secuencial
+============================================
+ Tiempo SECUENCIAL
+ Numero de ejecuciones: 5
+============================================
+  Run 1/5 ... 516.83 s
+  Run 2/5 ... 522.89 s
+  Run 3/5 ... 520.80 s
+  Run 4/5 ... 518.29 s
+  Run 5/5 ... 522.40 s
+
+--------------------------------------------
+ Ejecuciones completadas : 5
+ SVG              : resultado_PNOA_2021_CAT_462-4603_NPC01_seq.svg
+ Tiempo promedio  : 520.242000 s
+============================================
+ Log guardado en  : /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/seq_20260611_234138.txt
+ Raw guardado en  : /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/seq_20260611_234138_raw.txt
+>>> Paralelo NP=4
+============================================
+ Tiempo PARALELO
+ Número de procesos: 4
+ Número de ejecuciones: 5
+============================================
+  Run 1/5 ... 228.78 s
+  Run 2/5 ... 231.23 s
+  Run 3/5 ... 235.94 s
+  Run 4/5 ... 250.67 s
+  Run 5/5 ... 233.87 s
+
+--------------------------------------------
+ Ejecuciones completadas : 5
+ Número de procesos : 4
+ Tiempo promedio  : 236.098000 s
+============================================
+ Log guardado en  : /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/par_NP4_20260612_002523.txt
+ Raw guardado en  : /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/par_NP4_20260612_002523_raw.txt
+>>> Paralelo NP=8
+============================================
+ Tiempo PARALELO
+ Número de procesos: 8
+ Número de ejecuciones: 5
+============================================
+  Run 1/5 ... 176.73 s
+  Run 2/5 ... 174.35 s
+  Run 3/5 ... 179.71 s
+  Run 4/5 ... 179.73 s
+  Run 5/5 ... 170.95 s
+
+--------------------------------------------
+ Ejecuciones completadas : 5
+ Número de procesos : 8
+ Tiempo promedio  : 176.294000 s
+============================================
+ Log guardado en  : /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/par_NP8_20260612_004506.txt
+ Raw guardado en  : /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/par_NP8_20260612_004506_raw.txt
+>>> Paralelo NP=12
+============================================
+ Tiempo PARALELO
+ Número de procesos: 12
+ Número de ejecuciones: 5
+============================================
+  Run 1/5 ... 222.84 s
+  Run 2/5 ... 216.83 s
+  Run 3/5 ... 220.25 s
+  Run 4/5 ... 211.49 s
+  Run 5/5 ... 205.84 s
+
+--------------------------------------------
+ Ejecuciones completadas : 5
+ Número de procesos : 12
+ Tiempo promedio  : 215.450000 s
+============================================
+ Log guardado en  : /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/par_NP12_20260612_005950.txt
+ Raw guardado en  : /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/par_NP12_20260612_005950_raw.txt
+
+════════════════════════════════════════════
+ Todas las pruebas terminaron.
+ Resultados en: /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/
+════════════════════════════════════════════
+
