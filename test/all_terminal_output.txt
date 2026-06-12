@@ -398,3 +398,44 @@
  Resultados en: /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/
 ════════════════════════════════════════════
 
+
+ARCHIVO NUEVO
+════════════════════════════════════════════
+ Dataset: PNOA_2024_AND_739-4088_H29_NPC01
+════════════════════════════════════════════
+>>> Secuencial
+============================================
+ Tiempo SECUENCIAL
+ Numero de ejecuciones: 5
+============================================
+  Run 1/5 ... 627.64 s
+  Run 2/5 ... 622.65 s
+  Run 3/5 ... 619.12 s
+  Run 4/5 ... 619.53 s
+  Run 5/5 ... 618.20 s
+
+--------------------------------------------
+ Ejecuciones completadas : 5
+ SVG              : resultado_PNOA_2024_AND_739-4088_H29_NPC01_seq.svg
+ Tiempo promedio  : 621.428000 s
+============================================
+ Log guardado en  : /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/seq_20260612_074642.txt
+ Raw guardado en  : /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/seq_20260612_074642_raw.txt
+>>> Paralelo NP=4
+============================================
+ Tiempo PARALELO
+ Número de procesos: 4
+ Número de ejecuciones: 5
+============================================
+  Run 1/5 ... 322.14 s
+  Run 2/5 ... 320.62 s >>> Paralelo NP=8
+============================================
+ Tiempo PARALELO
+ Número de procesos: 8
+ Número de ejecuciones: 5
+============================================
+  Run 1/5 ... >>> Paralelo NP=12
+============================================
+tee: /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/par_NP12_20260612_084437.txt: No space left on device
+
+════════════════════════════════════════════
