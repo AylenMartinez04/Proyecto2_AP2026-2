@@ -17,13 +17,14 @@ fi
 
 N="$1"
 NP="$2"
+LAS="${3:-data/PNOA_2021_CAT_462-4603_NPC01.las}"
 
 if ! [[ "$N" =~ ^[1-9][0-9]*$ ]]; then
     echo "Error: N_repeticiones debe ser un entero positivo."
     exit 1
 fi
 
-if ! [[ "$NP" =~ ^[2-9][0-9]*$ ]]; then
+if ! [[ "$NP" =~ ^[0-9]+$ ]] || [[ "$NP" -le 1 ]]; then
     echo "Error: NP debe ser un entero mayor que 1."
     exit 1
 fi
@@ -48,7 +49,7 @@ for i in $(seq 1 "$N"); do
     echo -n "  Run $i/$N ... " | tee -a "$LOG_FILE"
 
     # Ejecutar desde la raíz del proyecto; capturar stdout+stderr
-    OUTPUT=$(cd "$ROOT_DIR" && make run-par NP="$NP" 2>&1)
+    OUTPUT=$(cd "$ROOT_DIR" && make run-par NP="$NP" LAS="$LAS" 2>&1)
 
     # Extraer el tiempo de la ÚLTIMA línea: "[TIME] TOTAL: X.X s"
     LAST_LINE=$(echo "$OUTPUT" | tail -n 1)

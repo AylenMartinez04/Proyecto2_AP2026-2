@@ -8,6 +8,8 @@ SEQ_SRC = src/secuencial/*.c
 PAR_BIN = triangulation_par
 SEQ_BIN = triangulation_seq
 
+LAS ?= data/PNOA_2021_CAT_462-4603_NPC01.las
+
 # Compilación:
 
 all: par seq
@@ -20,17 +22,17 @@ seq:
 
 # Para la ejecución:
 
-# Uso: make run-par NP=4   (por defecto NP=4)
+# Uso: make run-par NP=4 LAS=data/archivo.las SVG=resultado.svg
 NP ?= 4
 run-par: par
 	mkdir -p work
-	mpirun -np $(NP) ./$(PAR_BIN)
+	mpirun -np $(NP) ./$(PAR_BIN) $(SVG) $(LAS)
 
-# Uso: make run-seq SVG=resultado.svg   (por defecto resultado.svg)
+# Uso: make run-seq LAS=data/archivo.las SVG=resultado.svg
 SVG ?= resultado.svg
 run-seq: seq
 	mkdir -p work
-	./$(SEQ_BIN) $(SVG)
+	./$(SEQ_BIN) $(SVG) $(LAS)
 
 # Limpieza de puntos, triangulación y el archivo svg de visualización además de ejecutables
 

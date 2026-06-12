@@ -15,6 +15,7 @@ fi
 
 N="$1"
 SVG="${2:-resultado.svg}"
+LAS="${3:-data/PNOA_2021_CAT_462-4603_NPC01.las}" 
 
 if ! [[ "$N" =~ ^[1-9][0-9]*$ ]]; then
     echo "Error: N_repeticiones debe ser un entero positivo."
@@ -38,10 +39,11 @@ echo " Numero de ejecuciones: $N"                               | tee -a "$LOG_F
 echo "============================================" | tee -a "$LOG_FILE"
 
 # ---------- Ejecuciones ----------
+#  Correr con: ./runtime_sec.sh <N_repeticiones> <archivo.las>
 for i in $(seq 1 "$N"); do
     echo -n "  Run $i/$N ... " | tee -a "$LOG_FILE"
 
-    OUTPUT=$(cd "$ROOT_DIR" && make run-seq SVG="$SVG" 2>&1)
+    OUTPUT=$(cd "$ROOT_DIR" && make run-seq SVG="$SVG" LAS="$LAS" 2>&1)
 
     LAST_LINE=$(echo "$OUTPUT" | tail -n 1)
     TIME_VAL=$(echo "$LAST_LINE" | grep -oE '[0-9]+\.[0-9]+' | head -n 1)

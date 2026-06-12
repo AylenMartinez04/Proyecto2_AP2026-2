@@ -3,26 +3,27 @@
 #include "structure.h"
 /**
  * Main principal que ejecuta el programa
- * 
+ *
  * Se le pasa el numero de procesos
  * Cada proceso ejecuta el main (dependiendo el rank):
  * - rank= 0: es el master
  * - rank /= 0 es worker
  */
-int main(int argc, char **argv) {
-    MPI_Init(&argc,&argv); // Iniciar MPI
+int main(int argc, char **argv)
+{
+    MPI_Init(&argc, &argv); // Iniciar MPI
     // Obtener rank (ID)
     int rank;
-    MPI_Comm_rank(MPI_COMM_WORLD,&rank);
+    MPI_Comm_rank(MPI_COMM_WORLD, &rank);
     // Crear configuracion (archivo de entrada, carpeta de trabajo (.pts y .tri))
     CONFIG cfg;
-    strcpy(cfg.input_file,"data/PNOA_2016_MAD_379-4476_ORT-CLA-RGB.las");
-    strcpy(cfg.work_dir,"work");
-    strcpy(cfg.svg_out,    argc > 1 ? argv[1] : "resultado.svg");
+    strcpy(cfg.input_file, argc > 2 ? argv[2] : "data/PNOA_2021_CAT_462-4603_NPC01.las");
+    strcpy(cfg.svg_out, argc > 1 ? argv[1] : "resultado.svg");
+    strcpy(cfg.work_dir, "work");
     // Definir tamaño del bloque
     cfg.block_size = 20000;
     // Dependiendo del rank ejecutara su rol
-    if(rank==0)
+    if (rank == 0)
         master_run(&cfg);
     else
         worker_loop(rank);
