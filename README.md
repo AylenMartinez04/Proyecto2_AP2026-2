@@ -9,7 +9,14 @@ Fuente:
 https://centrodedescargas.cnig.es/
 
 Especialmente usamos:
-https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12071766
+- https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12071766
+
+- https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12463756
+
+- https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=9404740
+
+- https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=11593658
+
 
 Condiciones de uso:
 https://centrodedescargas.cnig.es/CentroDescargas/lidar-tercera-cobertura#licencias
