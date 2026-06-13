@@ -438,8 +438,27 @@ ARCHIVO NUEVO
  Número de procesos : 4
  Tiempo promedio  : 323.572000 s
 ============================================
-  Run 1/5 ... >>> Paralelo NP=12
+>>> Paralelo NP=12
 ============================================
-tee: /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/par_NP12_20260612_084437.txt: No space left on device
+ Tiempo PARALELO
+ Número de procesos: 12
+ Número de ejecuciones: 5
+============================================
+  Run 1/5 ... 509.99 s
+  Run 2/5 ... 527.06 s
+  Run 3/5 ... 505.08 s
+  Run 4/5 ... 530.76 s
+  Run 5/5 ... 594.10 s
 
+--------------------------------------------
+ Ejecuciones completadas : 5
+ Número de procesos : 12
+ Tiempo promedio  : 533.398000 s
+============================================
+ Log guardado en  : /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/par_NP12_20260612_112833.txt
+ Raw guardado en  : /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/par_NP12_20260612_112833_raw.txt
+
+════════════════════════════════════════════
+ Todas las pruebas terminaron.
+ Resultados en: /home/awadedorime/Documents/universidad/semestre8/paralelos/proyFInal/Proyecto2_AP2026-2/test/results/
 ════════════════════════════════════════════
