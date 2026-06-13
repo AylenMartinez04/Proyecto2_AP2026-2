@@ -7,35 +7,48 @@ N=5  # número de repeticiones por configuración
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-LAS_FILES=(
-    "data/PNOA_2016_MAD_379-4476_ORT-CLA-RGB.las"
-    "data/PNOA_2016_MAD_383-4484_ORT-CLA-RGB.las"
-    "data/PNOA_2017_NAV_610-4646_ORT-CLA-IRC.las"
-    "data/PNOA_2019_CYL-NE_598-4648_000-000-IRC.las"
-    "data/PNOA_2021_CAT_462-4603_NPC01.las"
-)
+ROOT_DIR="$(dirname "$SCRIPT_DIR")"
+DATA_DIR="$ROOT_DIR/data" # Carpeta data del proyecto
 
-for LAS in "${LAS_FILES[@]}"; do
-    # Nombre corto del archivo para los logs
-    NAME=$(basename "$LAS" .las)
+echo "════════════════════════════════════════════"
+echo " ESCANEANDO CARPETA DE DATOS: $DATA_DIR"
+echo "════════════════════════════════════════════"
+    
+if [ -n "$(ls -A "$DATA_DIR"/*.las 2>/dev/null)" ]; then
 
-    echo ""
-    echo "════════════════════════════════════════════"
-    echo " Dataset: $NAME"
-    echo "════════════════════════════════════════════"
-
-    echo ">>> Secuencial"
-    bash "$SCRIPT_DIR/runtime_sec.sh" $N "resultado_${NAME}_seq.svg" "$LAS"
-
-    echo ">>> Paralelo NP=4"
-    bash "$SCRIPT_DIR/runtime_par.sh" $N 4 "$LAS"
-
-    echo ">>> Paralelo NP=8"
-    bash "$SCRIPT_DIR/runtime_par.sh" $N 8 "$LAS"
-
-    echo ">>> Paralelo NP=12"
-    bash "$SCRIPT_DIR/runtime_par.sh" $N 12 "$LAS"
-done
+    # Pruebas secuenciales
+    for LAS in "$DATA_DIR"/*.las
+    do
+        echo "════════════════════════════════════════════"
+        echo " PROCESANDO ARCHIVO: $(basename "$LAS")"
+        echo "════════════════════════════════════════════"
+        echo ">>> Secuencial"
+        bash "$SCRIPT_DIR/runtime_sec.sh" $N "resultado_${NAME}_seq.svg" "$LAS"
+        
+        echo "Finalizado el análisis para: $(basename "$LAS")"
+        echo ""
+    done
+    # Pruebas paralelas
+    for LAS in "$DATA_DIR"/*.las
+    do
+        echo "════════════════════════════════════════════"
+        echo " PROCESANDO ARCHIVO: $(basename "$LAS")"
+        echo "════════════════════════════════════════════"
+        for np in 4 8 12 16 20
+        do
+            echo ">>> Ejecutando con NP=$np"
+            bash "$SCRIPT_DIR/runtime_par.sh" "$N" "$np" "$LAS"
+            sleep 2
+        done
+        echo "--------------------------------------------"
+        echo "Finalizado el análisis para: $(basename "$LAS")"
+        echo "════════════════════════════════════════════"
+        echo ""
+    done
+else
+    echo "ERROR: No se encontraron archivos .las en la carpeta $DATA_DIR"
+    exit 1
+fi
 
 echo ""
 echo "════════════════════════════════════════════"

@@ -1,0 +1,16 @@
+============================================
+ Tiempo PARALELO
+ Número de procesos: 8
+ Número de ejecuciones: 5
+============================================
+  Run 1/5 ... 0.05 s
+  Run 2/5 ... 0.05 s
+  Run 3/5 ... 0.08 s
+  Run 4/5 ... 0.06 s
+  Run 5/5 ... 0.09 s
+
+--------------------------------------------
+ Ejecuciones completadas : 5
+ Número de procesos : 8
+ Tiempo promedio  : 0.066000 s
+============================================
