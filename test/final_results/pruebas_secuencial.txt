@@ -1,0 +1,94 @@
+════════════════════════════════════════════
+ ESCANEANDO CARPETA DE DATOS: /home/sandra/Proyecto2_AP2026-2/data
+════════════════════════════════════════════
+════════════════════════════════════════════
+ PROCESANDO ARCHIVO: PNOA_2016_MAD_379-4476_ORT-CLA-RGB.las
+════════════════════════════════════════════
+>>> Secuencial
+============================================
+ Tiempo SECUENCIAL
+ Numero de ejecuciones: 5
+============================================
+  Run 1/5 ... 0.16 s
+  Run 2/5 ... 0.17 s
+  Run 3/5 ... 0.17 s
+  Run 4/5 ... 0.16 s
+  Run 5/5 ... 0.16 s
+
+--------------------------------------------
+ Ejecuciones completadas : 5
+ SVG              : resultado__seq.svg
+ Tiempo promedio  : 0.164000 s
+============================================
+ Log guardado en  : /home/sandra/Proyecto2_AP2026-2/test/results/seq_20260613_020339.txt
+ Raw guardado en  : /home/sandra/Proyecto2_AP2026-2/test/results/seq_20260613_020339_raw.txt
+Finalizado el análisis para: PNOA_2016_MAD_379-4476_ORT-CLA-RGB.las
+
+════════════════════════════════════════════
+ PROCESANDO ARCHIVO: PNOA_2019_CYL-NE_598-4648_000-000-IRC.las
+════════════════════════════════════════════
+>>> Secuencial
+============================================
+ Tiempo SECUENCIAL
+ Numero de ejecuciones: 5
+============================================
+  Run 1/5 ... 0.05 s
+  Run 2/5 ... 0.06 s
+  Run 3/5 ... 0.05 s
+  Run 4/5 ... 0.05 s
+  Run 5/5 ... 0.05 s
+
+--------------------------------------------
+ Ejecuciones completadas : 5
+ SVG              : resultado__seq.svg
+ Tiempo promedio  : 0.052000 s
+============================================
+ Log guardado en  : /home/sandra/Proyecto2_AP2026-2/test/results/seq_20260613_020340.txt
+ Raw guardado en  : /home/sandra/Proyecto2_AP2026-2/test/results/seq_20260613_020340_raw.txt
+Finalizado el análisis para: PNOA_2019_CYL-NE_598-4648_000-000-IRC.las
+
+════════════════════════════════════════════
+ PROCESANDO ARCHIVO: PNOA_2021_CAT_462-4603_NPC01.las
+════════════════════════════════════════════
+>>> Secuencial
+============================================
+ Tiempo SECUENCIAL
+ Numero de ejecuciones: 5
+============================================
+  Run 1/5 ... 570.17 s
+  Run 2/5 ... 570.55 s
+  Run 3/5 ... 573.21 s
+  Run 4/5 ... 574.03 s
+  Run 5/5 ... 602.60 s
+
+--------------------------------------------
+ Ejecuciones completadas : 5
+ SVG              : resultado__seq.svg
+ Tiempo promedio  : 578.112000 s
+============================================
+ Log guardado en  : /home/sandra/Proyecto2_AP2026-2/test/results/seq_20260613_020341.txt
+ Raw guardado en  : /home/sandra/Proyecto2_AP2026-2/test/results/seq_20260613_020341_raw.txt
+Finalizado el análisis para: PNOA_2021_CAT_462-4603_NPC01.las
+
+════════════════════════════════════════════
+ PROCESANDO ARCHIVO: PNOA_2024_AND_739-4088_H29_NPC01.las
+════════════════════════════════════════════
+>>> Secuencial
+============================================
+ Tiempo SECUENCIAL
+ Numero de ejecuciones: 5
+============================================
+  Run 1/5 ... 682.08 s
+  Run 2/5 ... 681.80 s
+  Run 3/5 ... 682.19 s
+  Run 4/5 ... 683.14 s
+  Run 5/5 ... 686.73 s
+
+--------------------------------------------
+ Ejecuciones completadas : 5
+ SVG              : resultado__seq.svg
+ Tiempo promedio  : 683.188000 s
+============================================
+ Log guardado en  : /home/sandra/Proyecto2_AP2026-2/test/results/seq_20260613_025207.txt
+ Raw guardado en  : /home/sandra/Proyecto2_AP2026-2/test/results/seq_20260613_025207_raw.txt
+Finalizado el análisis para: PNOA_2024_AND_739-4088_H29_NPC01.las

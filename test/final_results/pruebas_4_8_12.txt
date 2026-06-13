@@ -1,0 +1,258 @@
+════════════════════════════════════════════
+ ESCANEANDO CARPETA DE DATOS: /home/sandra/Proyecto2_AP2026-2/data
+════════════════════════════════════════════
+════════════════════════════════════════════
+ PROCESANDO ARCHIVO: PNOA_2016_MAD_379-4476_ORT-CLA-RGB.las
+════════════════════════════════════════════
+>>> Ejecutando con NP=4
+============================================
+ Tiempo PARALELO
+ Número de procesos: 4
+ Número de ejecuciones: 5
+============================================
+  Run 1/5 ... 0.23 s
+  Run 2/5 ... 0.20 s
+  Run 3/5 ... 0.17 s
+  Run 4/5 ... 0.20 s
+  Run 5/5 ... 0.18 s
+
+--------------------------------------------
+ Ejecuciones completadas : 5
+ Número de procesos : 4
+ Tiempo promedio  : 0.196000 s
+============================================
+ Log guardado en  : /home/sandra/Proyecto2_AP2026-2/test/results/par_NP4_20260613_003439.txt
+ Raw guardado en  : /home/sandra/Proyecto2_AP2026-2/test/results/par_NP4_20260613_003439_raw.txt
+>>> Ejecutando con NP=8
+============================================
+ Tiempo PARALELO
+ Número de procesos: 8
+ Número de ejecuciones: 5
+============================================
+  Run 1/5 ... 0.17 s
+  Run 2/5 ... 0.18 s
+  Run 3/5 ... 0.18 s
+  Run 4/5 ... 0.17 s
+  Run 5/5 ... 0.18 s
+
+--------------------------------------------
+ Ejecuciones completadas : 5
+ Número de procesos : 8
+ Tiempo promedio  : 0.176000 s
+============================================
+ Log guardado en  : /home/sandra/Proyecto2_AP2026-2/test/results/par_NP8_20260613_003446.txt
+ Raw guardado en  : /home/sandra/Proyecto2_AP2026-2/test/results/par_NP8_20260613_003446_raw.txt
+>>> Ejecutando con NP=12
+============================================
+ Tiempo PARALELO
+ Número de procesos: 12
+ Número de ejecuciones: 5
+============================================
+  Run 1/5 ... 0.20 s
+  Run 2/5 ... 0.21 s
+  Run 3/5 ... 0.22 s
+  Run 4/5 ... 0.18 s
+  Run 5/5 ... 0.19 s
+
+--------------------------------------------
+ Ejecuciones completadas : 5
+ Número de procesos : 12
+ Tiempo promedio  : 0.200000 s
+============================================
+ Log guardado en  : /home/sandra/Proyecto2_AP2026-2/test/results/par_NP12_20260613_003452.txt
+ Raw guardado en  : /home/sandra/Proyecto2_AP2026-2/test/results/par_NP12_20260613_003452_raw.txt
+--------------------------------------------
+Finalizado el análisis para: PNOA_2016_MAD_379-4476_ORT-CLA-RGB.las
+════════════════════════════════════════════
+
+════════════════════════════════════════════
+ PROCESANDO ARCHIVO: PNOA_2019_CYL-NE_598-4648_000-000-IRC.las
+════════════════════════════════════════════
+>>> Ejecutando con NP=4
+============================================
+ Tiempo PARALELO
+ Número de procesos: 4
+ Número de ejecuciones: 5
+============================================
+  Run 1/5 ... 0.05 s
+  Run 2/5 ... 0.05 s
+  Run 3/5 ... 0.05 s
+  Run 4/5 ... 0.05 s
+  Run 5/5 ... 0.05 s
+
+--------------------------------------------
+ Ejecuciones completadas : 5
+ Número de procesos : 4
+ Tiempo promedio  : 0.050000 s
+============================================
+ Log guardado en  : /home/sandra/Proyecto2_AP2026-2/test/results/par_NP4_20260613_003501.txt
+ Raw guardado en  : /home/sandra/Proyecto2_AP2026-2/test/results/par_NP4_20260613_003501_raw.txt
+>>> Ejecutando con NP=8
+============================================
+ Tiempo PARALELO
+ Número de procesos: 8
+ Número de ejecuciones: 5
+============================================
+  Run 1/5 ... 0.05 s
+  Run 2/5 ... 0.05 s
+  Run 3/5 ... 0.08 s
+  Run 4/5 ... 0.06 s
+  Run 5/5 ... 0.09 s
+
+--------------------------------------------
+ Ejecuciones completadas : 5
+ Número de procesos : 8
+ Tiempo promedio  : 0.066000 s
+============================================
+ Log guardado en  : /home/sandra/Proyecto2_AP2026-2/test/results/par_NP8_20260613_003506.txt
+ Raw guardado en  : /home/sandra/Proyecto2_AP2026-2/test/results/par_NP8_20260613_003506_raw.txt
+>>> Ejecutando con NP=12
+============================================
+ Tiempo PARALELO
+ Número de procesos: 12
+ Número de ejecuciones: 5
+============================================
+  Run 1/5 ... 0.06 s
+  Run 2/5 ... 0.07 s
+  Run 3/5 ... 0.05 s
+  Run 4/5 ... 0.05 s
+  Run 5/5 ... 0.09 s
+
+--------------------------------------------
+ Ejecuciones completadas : 5
+ Número de procesos : 12
+ Tiempo promedio  : 0.064000 s
+============================================
+ Log guardado en  : /home/sandra/Proyecto2_AP2026-2/test/results/par_NP12_20260613_003513.txt
+ Raw guardado en  : /home/sandra/Proyecto2_AP2026-2/test/results/par_NP12_20260613_003513_raw.txt
+--------------------------------------------
+Finalizado el análisis para: PNOA_2019_CYL-NE_598-4648_000-000-IRC.las
+════════════════════════════════════════════
+
+════════════════════════════════════════════
+ PROCESANDO ARCHIVO: PNOA_2021_CAT_462-4603_NPC01.las
+════════════════════════════════════════════
+>>> Ejecutando con NP=4
+============================================
+ Tiempo PARALELO
+ Número de procesos: 4
+ Número de ejecuciones: 5
+============================================
+  Run 1/5 ... 202.79 s
+  Run 2/5 ... 203.49 s
+  Run 3/5 ... 203.53 s
+  Run 4/5 ... 202.80 s
+  Run 5/5 ... 206.09 s
+
+--------------------------------------------
+ Ejecuciones completadas : 5
+ Número de procesos : 4
+ Tiempo promedio  : 203.740000 s
+============================================
+ Log guardado en  : /home/sandra/Proyecto2_AP2026-2/test/results/par_NP4_20260613_003520.txt
+ Raw guardado en  : /home/sandra/Proyecto2_AP2026-2/test/results/par_NP4_20260613_003520_raw.txt
+>>> Ejecutando con NP=8
+============================================
+ Tiempo PARALELO
+ Número de procesos: 8
+ Número de ejecuciones: 5
+============================================
+  Run 1/5 ... 96.46 s
+  Run 2/5 ... 96.09 s
+  Run 3/5 ... 96.33 s
+  Run 4/5 ... 94.97 s
+  Run 5/5 ... 96.58 s
+
+--------------------------------------------
+ Ejecuciones completadas : 5
+ Número de procesos : 8
+ Tiempo promedio  : 96.086000 s
+============================================
+ Log guardado en  : /home/sandra/Proyecto2_AP2026-2/test/results/par_NP8_20260613_005228.txt
+ Raw guardado en  : /home/sandra/Proyecto2_AP2026-2/test/results/par_NP8_20260613_005228_raw.txt
+>>> Ejecutando con NP=12
+============================================
+ Tiempo PARALELO
+ Número de procesos: 12
+ Número de ejecuciones: 5
+============================================
+  Run 1/5 ... 75.48 s
+  Run 2/5 ... 75.06 s
+  Run 3/5 ... 75.56 s
+  Run 4/5 ... 75.16 s
+  Run 5/5 ... 75.47 s
+
+--------------------------------------------
+ Ejecuciones completadas : 5
+ Número de procesos : 12
+ Tiempo promedio  : 75.346000 s
+============================================
+ Log guardado en  : /home/sandra/Proyecto2_AP2026-2/test/results/par_NP12_20260613_010037.txt
+ Raw guardado en  : /home/sandra/Proyecto2_AP2026-2/test/results/par_NP12_20260613_010037_raw.txt
+--------------------------------------------
+Finalizado el análisis para: PNOA_2021_CAT_462-4603_NPC01.las
+════════════════════════════════════════════
+
+════════════════════════════════════════════
+ PROCESANDO ARCHIVO: PNOA_2024_AND_739-4088_H29_NPC01.las
+════════════════════════════════════════════
+>>> Ejecutando con NP=4
+============================================
+ Tiempo PARALELO
+ Número de procesos: 4
+ Número de ejecuciones: 5
+============================================
+  Run 1/5 ... 238.18 s
+  Run 2/5 ... 237.13 s
+  Run 3/5 ... 238.94 s
+  Run 4/5 ... 238.43 s
+  Run 5/5 ... 238.60 s
+
+--------------------------------------------
+ Ejecuciones completadas : 5
+ Número de procesos : 4
+ Tiempo promedio  : 238.256000 s
+============================================
+ Log guardado en  : /home/sandra/Proyecto2_AP2026-2/test/results/par_NP4_20260613_010704.txt
+ Raw guardado en  : /home/sandra/Proyecto2_AP2026-2/test/results/par_NP4_20260613_010704_raw.txt
+>>> Ejecutando con NP=8
+============================================
+ Tiempo PARALELO
+ Número de procesos: 8
+ Número de ejecuciones: 5
+============================================
+  Run 1/5 ... 135.09 s
+  Run 2/5 ... 134.58 s
+  Run 3/5 ... 137.09 s
+  Run 4/5 ... 138.97 s
+  Run 5/5 ... 138.07 s
+
+--------------------------------------------
+ Ejecuciones completadas : 5
+ Número de procesos : 8
+ Tiempo promedio  : 136.760000 s
+============================================
+ Log guardado en  : /home/sandra/Proyecto2_AP2026-2/test/results/par_NP8_20260613_012705.txt
+ Raw guardado en  : /home/sandra/Proyecto2_AP2026-2/test/results/par_NP8_20260613_012705_raw.txt
+>>> Ejecutando con NP=12
+============================================
+ Tiempo PARALELO
+ Número de procesos: 12
+ Número de ejecuciones: 5
+============================================
+  Run 1/5 ... 113.53 s
+  Run 2/5 ... 114.20 s
+  Run 3/5 ... 114.20 s
+  Run 4/5 ... 113.88 s
+  Run 5/5 ... 113.51 s
+
+--------------------------------------------
+ Ejecuciones completadas : 5
+ Número de procesos : 12
+ Tiempo promedio  : 113.864000 s
+============================================
+ Log guardado en  : /home/sandra/Proyecto2_AP2026-2/test/results/par_NP12_20260613_013838.txt
+ Raw guardado en  : /home/sandra/Proyecto2_AP2026-2/test/results/par_NP12_20260613_013838_raw.txt
+--------------------------------------------
+Finalizado el análisis para: PNOA_2024_AND_739-4088_H29_NPC01.las
+════════════════════════════════════════════
