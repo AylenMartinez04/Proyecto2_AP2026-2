@@ -438,6 +438,23 @@ ARCHIVO NUEVO
  Número de procesos : 4
  Tiempo promedio  : 323.572000 s
 ============================================
+>>> Paralelo NP=8
+============================================
+ Tiempo PARALELO
+ Número de procesos: 8
+ Número de ejecuciones: 5
+============================================
+  Run 1/5 ... 406.67 s
+  Run 2/5 ... 359.37 s
+  Run 3/5 ... 383.56 s
+  Run 4/5 ... 395.88 s
+  Run 5/5 ... 401.99 s
+
+--------------------------------------------
+ Ejecuciones completadas : 5
+ Número de procesos : 8
+ Tiempo promedio  : 389.494000 s
+============================================
 >>> Paralelo NP=12
 ============================================
  Tiempo PARALELO
